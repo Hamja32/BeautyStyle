@@ -1,0 +1,53 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: red; */
+}
+
+.contact-col{
+   color: #676767;
+    flex-basis: 40%;
+}
+
+.contact-col h3{
+    color: #000f38;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-col p{
+    max-width: 450px;
+    list-style: 0.3;
+}
+
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+.contact form input,.contact form textarea{
+    display: block;
+    width: 100%;
+    background: #b9d4f7;
+    padding: 15px;
+    border: 0;
+    outline:0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    border-radius: 5px;
+}
+
+#ico{
+    padding: 5px;
+}
+
+.sending{
+    padding: 8px;
+}

@@ -1,0 +1,31 @@
+.footer{
+    margin: 10px auto;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+    /* background: #97c0d3; */
+    border-top: 1px solid #797979;
+    padding: 16px 0;
+}
+
+.footer ul li {
+    margin-left: 20px;
+    /* text-decoration: no; */
+    list-style: none;
+    display: inline-block;
+}
+
+
+@media (max-width:650px){
+    .footer{
+        flex-direction:column;
+    }
+
+    .footer ul{
+        flex-direction:column;
+    }
+
+    .footer ul li{
+        margin-top:20px;
+    }
+}
