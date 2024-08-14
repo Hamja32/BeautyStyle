@@ -51,3 +51,14 @@
 .sending{
     padding: 8px;
 }
+
+
+/* media query */
+@media (max-width:700px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 23px;
+    }
+}

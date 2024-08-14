@@ -21,7 +21,7 @@ a{
   color:inherit;
   line-height: 1;
   cursor: pointer;
-  transition: .3s all;
+  transition: .2s all;
 }
 
 a:hover{

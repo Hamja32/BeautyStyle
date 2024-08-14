@@ -95,17 +95,17 @@ nav ul li {
 @media (max-width:560px){
     
 nav ul{
-    width: 130px;
+    width: 180px;
 }
 
     nav ul li {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     nav .btn{
         /* padding: 12px 20px; */
-        font-size: 11px;
-        width: 80px;
+        font-size: 18px;
+        width: 110px;
     }
  
 }
